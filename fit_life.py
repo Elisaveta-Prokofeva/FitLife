@@ -26,5 +26,4 @@ while True:
     except ValueError as error:
         print(f'Ошибка ввода: {error}. Пожалуйста, проверьте', end=',')
         print(' что ввели все корректно')
-    except Exception as error:
-        print(f'Произошла непредвиденная ошибка: {error}')
+
