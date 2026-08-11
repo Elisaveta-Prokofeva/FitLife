@@ -1,5 +1,5 @@
-WATER_PER_KG = 30 # вода на кг
-ML_TO_LITERS = 1000 # мл в литры
+WATER_PER_KG = 30  # вода на кг
+ML_TO_LITERS = 1000  # мл в литры
 
 while True:
     try:
@@ -9,12 +9,12 @@ while True:
 
         user_weight_input = input(
             'Подскажите, пожалуйста, ваш вес в кг? (Например, 60)'
-        ) # добавила здесь уточнение. "кг" вынесла в вопрос, чтоб не путало в примере
+        )  # добавила здесь уточнение. "кг" вынесла в вопрос, чтоб не путало в примере
         user_weight = float(user_weight_input)
 
         user_height_input = input(
             'Какой у вас рост в метрах (Например, 1.70)'
-            ) # аналогично тому, что выше
+        )  # аналогично тому, что выше
         user_height = float(user_height_input)
 
         if user_height <= 0 or user_weight <= 0:
@@ -31,5 +31,6 @@ while True:
         break
 
     except ValueError as error:
-        print(f'Ошибка ввода: {error}. Пожалуйста, проверьте', end=',')
-        print(' что ввели все корректно')
+        print(f'Ошибка ввода: {error}. Пожалуйста, проверьте', end=', ')
+        print('что ввели всё корректно')
+
