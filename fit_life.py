@@ -13,7 +13,7 @@ while True:
         user_weight = float(user_weight_input)
 
         user_height_input = input(
-            'Какой у вас рост в метрах (Например, 1.70)
+            'Какой у вас рост в метрах (Например, 1.70)'
             ) # аналогично тому, что выше
         user_height = float(user_height_input)
 
