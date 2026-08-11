@@ -9,7 +9,7 @@ while True:
 
         user_weight_input = input(
             'Подскажите, пожалуйста, ваш вес в кг? (Например, 60)'
-        )  # добавила здесь уточнение. "кг" вынесла в вопрос, чтоб не путало в примере
+        )  # добавила здесь уточнение. "кг" вынесла в вопрос, чтоб не путало
         user_weight = float(user_weight_input)
 
         user_height_input = input(
@@ -33,4 +33,3 @@ while True:
     except ValueError as error:
         print(f'Ошибка ввода: {error}. Пожалуйста, проверьте', end=', ')
         print('что ввели всё корректно')
-
